@@ -1,4 +1,8 @@
 <?php
+
+session_start();
+
+
 if( isset( $_GET["signout"])){
   setcookie("uid", "Guest",time() -60 * 60 * 24 * 7);
   exit();

@@ -1,4 +1,6 @@
 <?php 
+// session_start();
+
 // $userName = "Guest";
 if (isset($_COOKIE["uid"])){
   $userName = $_COOKIE["uid"];

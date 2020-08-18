@@ -1,5 +1,6 @@
 <?php
     session_start();
+
     if (isset($_POST["btnOK"])){
         $_SESSION["who"] = $_POST["txtUserName"];
         header("Location: hellow.php");
@@ -9,6 +10,7 @@
     // var_dump($_POST);
     // dump把一個字串，變數，陣列show出來
 ?>
+<!-- https://www.webtech.tw/info.php?tid=33 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
